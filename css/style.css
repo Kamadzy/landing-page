@@ -32,7 +32,7 @@ h2{
     text-transform: uppercase;
 }
 
-/*============header============*/
+    /*Header*/
 #header{
     background: url(../img/2.jpg) center;
     background-size: cover;
@@ -90,6 +90,38 @@ h2{
     background:#474c52;
     color:#fff;
 }
+    /*Speakers*/
+
+#speakers{
+    padding:90px 0;
+    border-bottom: 2px solid;
+}
+#speakers h2{
+    color:#828689;
+}
+.large{
+    color:#828689;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.section-tabs .tab-content{
+    padding: 25px 20px;
+}
+.section-tabs .tab-content ul{
+    padding-left: 10px;
+}
+.section-tabs .tab-content ul li{
+    line-height: 30px;
+}
+.section-tabs .tab-content ul li i{
+    font-size: 15px;
+    color:#2cc7c1;
+}
+
+
+
+
 
 
 /*Large Devices, Wide Screens*/
