@@ -1,3 +1,9 @@
-/**
- * Created by kamadzy on 14.12.2016.
- */
+$(function(){
+   $('.collapse').on('show.bs.collapse', function(){
+       $(this).prev().find('.fa').removeClass().addClass('fa fa-minus-circle');
+   });
+    $('.collapse').on('hide.bs.collapse', function(){
+        $(this).prev().find('.fa').removeClass().addClass('fa fa-plus-circle');
+    });
+
+});

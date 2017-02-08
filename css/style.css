@@ -33,6 +33,7 @@ h2{
 }
 
     /*Header*/
+
 #header{
     background: url(../img/2.jpg) center;
     background-size: cover;
@@ -90,11 +91,11 @@ h2{
     background:#474c52;
     color:#fff;
 }
+
     /*Speakers*/
 
 #speakers{
     padding:90px 0;
-    border-bottom: 2px solid;
 }
 #speakers h2{
     color:#828689;
@@ -160,16 +161,41 @@ h2{
 .item > div:hover h3{
     color:#6bd8d3;
 }
-
-
-
-
-
 .speakers-footer{
     margin-top: 70px;
 }
 
+    /*Events*/
 
+#events{
+    padding: 90px 0;
+}
+.time{
+    background: #2cc7c1;
+    color:#fff;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+.collapse-link{
+    color:#747a84;
+    font-size: 18px;
+    font-weight: 500;
+}
+.collapse-link:hover{
+     color:#747a84;
+ }
+.collapse-state{
+    color:#2cc7c1;
+}
+.collapse p{
+    color:#999999;
+}
+.tab-collapse{
+    margin-bottom: 20px;
+}
 
 
 /*Large Devices, Wide Screens*/
