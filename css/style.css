@@ -222,6 +222,13 @@ h2{
     padding-right: 25px;
 }
 
+/*Sponsors*/
+
+#sponsors{
+    text-align: center;
+    padding: 60px 0;
+
+}
 
 /*Large Devices, Wide Screens*/
 @media only screen and (max-width: 1200px){
@@ -229,7 +236,9 @@ h2{
 }
 /*Medium Devices, Desktops*/
 @media only screen and (max-width:992px){
-    #speakers{
+    #speakers,
+    #form,
+    #events{
       padding:20px 0;
     }
     .speakers-head,
@@ -238,6 +247,12 @@ h2{
     }
     .row-item{
         margin-top: 20px;
+    }
+    #sponsors{
+        padding: 20px 0 0;
+    }
+    #sponsors img{
+        margin-bottom: 20px;
     }
 }
 /*Small Devices, Tablets*/
