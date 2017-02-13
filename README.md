@@ -1,3 +1,3 @@
 # Eventide
 
-![Preview of site](eventidePreview.gif)
+![Preview of site](eventidePreview.png)
